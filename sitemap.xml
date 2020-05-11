@@ -4,7 +4,13 @@
 
    <url>
       <loc>https://ancura.eu</loc>
-      <lastmod>2020-04-21</lastmod>
+      <lastmod>2020-05-11</lastmod>
+      <changefreq>weekly</changefreq>
+   </url>
+
+   <url>
+      <loc>https://ancura.eu/en</loc>
+      <lastmod>2020-05-11</lastmod>
       <changefreq>weekly</changefreq>
    </url>
     
