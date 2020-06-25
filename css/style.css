@@ -1416,3 +1416,223 @@ dt {
     text-decoration: none !important;
 	padding-left: 0px !important;
     padding-right: 0px !important; }
+
+
+@media all and (min-width:769px) {
+	.timeline {
+		padding:125px 15px 65px 15px;
+		overflow:auto;
+		clear:both;
+		position:relative;
+		webkit-box-sizing:content-box;
+		-moz-box-sizing:content-box;
+		box-sizing:content-box;
+		text-align:center;
+	}
+	
+	/*Pseudoklasse für die gestrichelte Zeitleisten-Linie am Anfang und am Ende*/
+	.timeline:before,
+	.timeline:after {
+		content:"";
+		border-left:2px dotted #eaeaea;
+		position:absolute;
+		height:60px;
+		left:calc(50% - 1px);
+	}
+	
+	.timeline:before {
+		top:15px;
+	}
+	
+	.timeline:after {
+		bottom:15px;
+	}
+	
+	.time-box {
+		webkit-box-sizing:unset;
+		-moz-box-sizing:unset;
+		box-sizing:unset;
+		margin-top:-50px;
+		width:calc(50% - 1px);
+		position:relative;
+		text-align:left;
+	}
+	
+	/*die Ereignisse auf der rechten Seite*/
+	.time-box:nth-child(2n) {
+		border-left:2px solid #eaeaea; 
+		float:right;
+	}
+	
+	/*Die Ereignisse auf der linken Seite*/
+	.time-box:nth-child(2n+1) {
+		border-right:2px solid #eaeaea; 
+		float:left;
+	}
+	
+	/*Die Überschrift des Ereignisses*/
+	.time-box .date-header {
+		background:#ff6600; 
+		color:#fff;
+		padding:15px;
+		position:relative;
+		line-height:30px;
+		border-radius:3px 3px 0 0;
+	}
+	
+	/*Die Überschrift des Ereignisses auf der linken Seite*/
+	.time-box:nth-child(2n+1) .date-header {
+		text-align:right;
+	}
+	
+	.time-box .date-header h2 {
+		margin:0;
+		color:#fff;
+	}
+	
+	/*gemeinsame Angaben der Pfeile neben den Ereignissen*/
+	.time-box:nth-child(2n) .date-header:before,
+	.time-box:nth-child(2n+1) .date-header:after {
+		content:"";
+		border-top:16px solid transparent;
+		border-bottom:16px solid transparent;
+		position:absolute;
+		top:calc(50% - 16px);
+	}
+	
+	/*Die Pfeile der linken Seite (nach rechts)*/
+	.time-box:nth-child(2n) .date-header:before {
+		border-right:12px solid #ff6600;
+		left:-12px;
+	}
+	
+	/*Die Pfeile der rechten Seite (nach links)*/
+	.time-box:nth-child(2n+1) .date-header:after {
+		border-left:12px solid #ff6600;
+		right:-12px;
+	}
+	
+	/*Gemeinsame Angaben für die Punkte auf der Zeitleiste*/	
+	.time-box:nth-child(2n+1) .date-header:before,
+	.time-box:nth-child(2n) .date-header:after {
+		content:""; 
+		width:12px;
+		height:12px;
+		background:#ff6600;
+		position:absolute;
+		border-radius:100%;
+		border:2px solid #fff;
+		top:calc(50% - 6px);
+		box-shadow:0 0 2px #ff6600;
+	}
+	
+	/*Ausrichtung der Punkte der linken Boxen*/
+	.time-box:nth-child(2n) .date-header:after {
+		left:-50px;
+	}
+	
+	/*Ausrichtung der Punkte der rechten Boxen*/
+	.time-box:nth-child(2n+1) .date-header:before {
+		right:-50px;
+	}
+	
+	.time-box .event:nth-child(even) {
+		border:1px solid #eaeaea;
+		border-radius:0 0 3px 3px;
+		padding:15px;
+	
+	.time-box .date-item {	
+		box-shadow:0 0 10px rgba(0,0,0,0.2);
+	}
+	
+	.time-box:nth-child(2n) .date-item {
+		margin-left:40px;
+	}
+	
+	.time-box:nth-child(2n+1) .date-item {
+		margin-right:40px;
+	}
+	
+	.time-box:last-child {
+		padding-bottom:50px;
+	}
+	
+	.time-box .date-header h3 {
+		color:#ffffff;
+		margin:0;
+		overflow:auto;
+	}
+	
+	.time-box .date-header h3 span {
+		background:#fff;
+		color:#f60;
+		padding:5px 10px;
+		margin-right:5px;
+		margin-left:15px;
+		margin-top:-5px;
+		display:inline-block;
+	}
+	
+	.time-box:nth-child(2n+1) span {
+		float:right;
+	}
+	
+	.time-box:nth-child(2n) .date-header h3 span {
+		margin:-5px 15px 0 5px;
+		float:left;
+	}
+}
+
+
+.time-note {
+		display:inline-block;
+		clear:both;
+		text-align:center;
+		position:relative;
+		width:50%;
+		margin:40px auto 89px auto;
+		background:#ff6600;
+		color:#fff;
+		padding:15px;
+		border-radius:3px;
+}
+
+.time-note:first-child {
+		margin:-40px auto 89px auto;
+}
+.time-note:last-child {
+		margin:40px auto 40px auto;
+}
+
+.time-note:before,
+.time-note:after {
+		clear:both;
+		content:"";
+		border-left:2px solid #eaeaea;
+		position:absolute;
+		left:calc(50% - 1px);
+}
+.time-note:before {
+		height:40px;
+		top:-40px;
+}
+
+.time-note:after {
+		height:40px;
+		bottom:-40px;
+}
+
+.time-note h2 {
+		background:#ff6600;
+		color:#fff;
+		display:inline-block;
+		padding:15px;
+		margin:10px;
+		border-radius:3px;
+}
+
+	
+img {
+		max-width:100%;
+		height:auto;
+}	
