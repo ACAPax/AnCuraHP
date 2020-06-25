@@ -1527,14 +1527,14 @@ dt {
 	}
 	
 	/*Ausrichtung der Punkte der linken Boxen*/
-/* 	.time-box:nth-child(2n) .date-header:after {
+	.time-box:nth-child(2n) .date-header:after {
 		left:-50px;
-	} */
+	}
 	
 	/*Ausrichtung der Punkte der rechten Boxen*/
-/* 	.time-box:nth-child(2n+1) .date-header:before {
+	.time-box:nth-child(2n+1) .date-header:before {
 		right:-50px;
-	} */
+	}
 	
 	.time-box .event:nth-child(even) {
 		border:1px solid #eaeaea;
