@@ -3,114 +3,114 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
    <url>
-      <loc>https://ancura.eu</loc>
+      <loc>https://ancura.de</loc>
 	  <xhtml:link 
          rel="alternate"
          hreflang="de"
-         href="https://ancura.eu"/>
+         href="https://ancura.de"/>
       <xhtml:link 
          rel="alternate"
          hreflang="en"
-         href="https://ancura.eu/en/index.html"/>
-      <lastmod>2020-07-01</lastmod>
+         href="https://ancura.de/en/index.html"/>
+      <lastmod>2020-09-18</lastmod>
       <changefreq>weekly</changefreq>
    </url>
     
    <url>
-      <loc>https://ancura.eu/mdr-mpdg-corona-ticker.html</loc>
-      <lastmod>2020-04-17</lastmod>
+      <loc>https://ancura.de/mdr-mpdg-corona-ticker.html</loc>
+      <lastmod>2020-09-18</lastmod>
       <changefreq>daily</changefreq>
    </url>
           
    <url>
-      <loc>https://ancura.eu/glossar.html</loc>
-      <lastmod>2020-04-11</lastmod>
+      <loc>https://ancura.de/glossar.html</loc>
+      <lastmod>2020-09-18</lastmod>
       <changefreq>weekly</changefreq>
    </url>
       
    <url>
-      <loc>https://ancura.eu/kontakt.html</loc>
-      <lastmod>2020-04-08</lastmod>
+      <loc>https://ancura.de/kontakt.html</loc>
+      <lastmod>2020-09-18</lastmod>
       <changefreq>monthly</changefreq>
    </url>
    
    <url>
-      <loc>https://ancura.eu/eu-medizinprodukte-verordnung-mdr.html</loc>
-      <lastmod>2020-04-17</lastmod>
+      <loc>https://ancura.de/eu-medizinprodukte-verordnung-mdr.html</loc>
+      <lastmod>2020-09-18</lastmod>
       <changefreq>weekly</changefreq>
    </url>   
 
    <url>
-      <loc>https://ancura.eu/klinische-bewertung.html</loc>
-      <lastmod>2020-07-01</lastmod>
+      <loc>https://ancura.de/klinische-bewertung.html</loc>
+      <lastmod>2020-09-18</lastmod>
       <changefreq>weekly</changefreq>
    </url>
    
    <url>
-      <loc>https://ancura.eu/medizinprodukte-eu-anpassungsgesetz-mpeuanpg.html</loc>
-      <lastmod>2020-04-08</lastmod>
+      <loc>https://ancura.de/medizinprodukte-eu-anpassungsgesetz-mpeuanpg.html</loc>
+      <lastmod>2020-09-18</lastmod>
       <changefreq>weekly</changefreq>
    </url>   
    
    <url>
-      <loc>https://ancura.eu/klassifizierung-medizinprodukte-klasse-1r.html</loc>
-      <lastmod>2020-04-08</lastmod>
+      <loc>https://ancura.de/klassifizierung-medizinprodukte-klasse-1r.html</loc>
+      <lastmod>2020-09-18</lastmod>
       <changefreq>weekly</changefreq>
    </url>
    
    <url>
-      <loc>https://ancura.eu/klinischer-bewertungsplan.html</loc>
-      <lastmod>2020-04-08</lastmod>
+      <loc>https://ancura.de/klinischer-bewertungsplan.html</loc>
+      <lastmod>2020-09-18</lastmod>
       <changefreq>weekly</changefreq>
    </url>
 
    <url>
-      <loc>https://ancura.eu/pmcf-klinische-nachbeobachtung.html</loc>
-      <lastmod>2020-04-21</lastmod>
+      <loc>https://ancura.de/pmcf-klinische-nachbeobachtung.html</loc>
+      <lastmod>2020-09-18</lastmod>
       <changefreq>weekly</changefreq>
    </url>   
    
    <url>
-      <loc>https://ancura.eu/klassifizierung-von-medizinprodukten.html</loc>
-      <lastmod>2020-04-08</lastmod>
+      <loc>https://ancura.de/klassifizierung-von-medizinprodukten.html</loc>
+      <lastmod>2020-09-18</lastmod>
       <changefreq>weekly</changefreq>
    </url> 
    
    <url>
-      <loc>https://ancura.eu/konformitaetsbewertungsverfahren.html</loc>
-      <lastmod>2020-04-08</lastmod>
+      <loc>https://ancura.de/konformitaetsbewertungsverfahren.html</loc>
+      <lastmod>2020-09-18</lastmod>
       <changefreq>weekly</changefreq>
    </url>   
    
    <url>
-      <loc>https://ancura.eu/oem-plm.html</loc>
-      <lastmod>2020-04-08</lastmod>
+      <loc>https://ancura.de/oem-plm.html</loc>
+      <lastmod>2020-09-18</lastmod>
       <changefreq>weekly</changefreq>
    </url>   
    
    <url>
-      <loc>https://ancura.eu/ancura-philosophie.html</loc>
-      <lastmod>2020-04-08</lastmod>
+      <loc>https://ancura.de/ancura-philosophie.html</loc>
+      <lastmod>2020-09-18</lastmod>
       <changefreq>monthly</changefreq>
    </url>  
    
    <url>
-      <loc>https://ancura.eu/qualitaetsmanagementsystem-qms.html</loc>
-      <lastmod>2020-04-08</lastmod>
+      <loc>https://ancura.de/qualitaetsmanagementsystem-qms.html</loc>
+      <lastmod>2020-09-18</lastmod>
       <changefreq>monthly</changefreq>
    </url>
       
    <url>
-      <loc>https://ancura.eu/impressum.html</loc>
+      <loc>https://ancura.de/impressum.html</loc>
 	  <xhtml:link 
          rel="alternate"
          hreflang="de"
-         href="https://ancura.eu/impressum.html"/>
+         href="https://ancura.de/impressum.html"/>
       <xhtml:link 
          rel="alternate"
          hreflang="en"
-         href="https://ancura.eu/en/imprint.html"/>
-      <lastmod>2020-05-13</lastmod>
+         href="https://ancura.de/en/imprint.html"/>
+      <lastmod>2020-09-18</lastmod>
       <changefreq>monthly</changefreq>
    </url>      
    
