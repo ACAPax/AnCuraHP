@@ -6,15 +6,15 @@ use Email::Valid;
 my $query = new CGI;
 
 # Die hier definierte E-Mail-Adresse MUSS bei goneo als E-Mail-Konto oder Alias existieren!
-my $sendmail = "/usr/sbin/sendmail -t -i -finfo\@ancura.eu";
+my $sendmail = "/usr/sbin/sendmail -t -i -finfo\@ancura.de";
 
 # Dies ist die Absender-E-Mail-Adresse, welche in der Mail auftaucht.
 my $web_absender = $query->param('email_address');
 #my $absender = "From: $web_absender\n";
-my $absender = "From: info\@ancura.eu\n";
+my $absender = "From: info\@ancura.de\n";
 
 # Hierbei handelt es sich um die Empfänger-E-Mail-Adresse.
-my $empfaenger = "To: web\@ancura.eu\n";
+my $empfaenger = "To: web\@ancura.de\n";
 
 # Der Betreff
 my $web_subject = $query->param('email_title');
